@@ -10,15 +10,14 @@ source:
 
 build:
   number: 0
-  skip: True  # [not py35]
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
+    - python >=3
     - pip
   run:
-    - python
+    - python >=3
     - h5py >=2.5
     - numpy >=1.8
     - scipy >=0.13
@@ -172,9 +171,6 @@ test:
     - openquake.qa_tests_data.classical_risk.case_4
     - openquake.qa_tests_data.classical_risk.case_5
     - openquake.qa_tests_data.classical_risk.case_master
-    - openquake.qa_tests_data.classical_tiling
-    - openquake.qa_tests_data.classical_tiling.case_1
-    - openquake.qa_tests_data.classical_tiling.case_2
     - openquake.qa_tests_data.disagg
     - openquake.qa_tests_data.disagg.case_1
     - openquake.qa_tests_data.disagg.case_2
