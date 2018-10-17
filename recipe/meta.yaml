@@ -1,4 +1,4 @@
-{% set version = "3.1.0.post1" %}
+{% set version = "3.2.0" %}
 
 package:
   name: openquake.engine
@@ -6,7 +6,8 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openquake.engine/openquake.engine-{{ version }}.tar.gz
-  sha256: 65f3c26bac04aa30f5e95e03379c5930b4739d0074d8ba5cfc442118a850d8b6
+  sha256: dbd877107f4ca1c56bdd0c7a3792bcf0790c48aee1c508b20f272566cabf80c2
+  
 
 build:
   noarch: python
@@ -33,6 +34,7 @@ requirements:
     - pyshp >=1.2.3
     - pyyaml
     - mock
+    - nose >=1.3
 
 test:
   imports:
@@ -268,3 +270,5 @@ about:
 extra:
   recipe-maintainers:
     - mhearne-usgs
+    - cbworden
+    - emthompson-usgs
