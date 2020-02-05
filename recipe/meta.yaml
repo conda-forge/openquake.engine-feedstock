@@ -266,7 +266,7 @@ about:
   license: GNU Affero GPL v3
   summary: 'Computes earthquake hazard and risk.'
   license_family: AGPL
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
 
 extra:
   recipe-maintainers:
