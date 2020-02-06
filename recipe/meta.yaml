@@ -1,4 +1,4 @@
-{% set version = "3.5.1" %}
+{% set version = "3.5.2" %}
 
 package:
   name: openquake.engine
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openquake.engine/openquake.engine-{{ version }}.tar.gz
-  sha256: 4d7ecf9a792f3c0a928e2ae1358294f6822395d9e3a3133b480cb7829d922a94
+  sha256: 82c2dac6a95eef47322429d205ae5d3366e7e923c8ecef9d802941593ef67e1c
   
 
 build:
