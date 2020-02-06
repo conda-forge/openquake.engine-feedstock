@@ -1,4 +1,4 @@
-{% set version = "3.4.0" %}
+{% set version = "3.5.0" %}
 
 package:
   name: openquake.engine
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openquake.engine/openquake.engine-{{ version }}.tar.gz
-  sha256: 4d3081c086c52eb61c65de8b2a3bb735608d5e11517b67cc6a0e66d98a1c001f
+  sha256: 7effc1f5e31983a8bcd105bb42260101cce6c344e8532867234b6c6630731ec9
   
 
 build:
@@ -24,7 +24,6 @@ requirements:
     - h5py >=2.8
     - numpy >=1.14
     - scipy >=1.0.1
-    - rtree >=0.8.3
     - pyzmq <18.0
     - psutil >=2.0
     - shapely >=1.3
