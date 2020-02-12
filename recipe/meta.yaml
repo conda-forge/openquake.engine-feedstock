@@ -1,4 +1,4 @@
-{% set version = "3.8.0" %}
+{% set version = "3.8.1" %}
 
 package:
   name: openquake.engine
@@ -6,13 +6,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/openquake.engine/openquake.engine-{{ version }}.tar.gz
-  sha256: d33f3c474bc49ba631fc4e74d72c7acfe500220199b9fc43c3e34bed4554c362
+  sha256: 7a89a55afe99e05761688b00fc606ec06cce4488a94e88e817e7bf4af09887a0
   
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
