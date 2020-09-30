@@ -5,7 +5,7 @@ Home: https://github.com/gem/oq-engine
 
 Package license: GNU Affero GPL v3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Computes earthquake hazard and risk.
 
