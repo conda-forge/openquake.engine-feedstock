@@ -21,6 +21,7 @@ CONDARC
 
 conda install --yes --quiet "conda-forge-ci-setup=3" conda-build pip -c conda-forge
 
+
 # set up the condarc
 setup_conda_rc "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
 
