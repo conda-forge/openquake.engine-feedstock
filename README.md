@@ -5,11 +5,9 @@ Home: https://github.com/gem/oq-engine
 
 Package license: GNU Affero GPL v3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openquake.engine-feedstock/blob/master/LICENSE.txt)
 
 Summary: Computes earthquake hazard and risk.
-
-
 
 Current build status
 ====================
