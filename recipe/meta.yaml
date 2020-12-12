@@ -16,7 +16,7 @@ requirements:
   build:
     - pip
   run:
-    - python >=3.6
+    - python
     - h5py >=2.9
     - numpy >=1.16
     - scipy >=1.3
