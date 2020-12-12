@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/gem/oq-engine
-  license: GNU Affero GPL v3
+  license: AGPL-3.0-only
   summary: Computes earthquake hazard and risk.
   license_family: AGPL
   license_file: LICENSE.txt
