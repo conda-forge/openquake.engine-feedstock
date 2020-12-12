@@ -11,9 +11,6 @@ source:
 
 build:
   number: 2
-  python:
-    - 3.7
-    - 3.6
   entry_points:
     - oq = openquake.commands.__main__:oq
   script: "{{ PYTHON }} -m pip install . -vv"
