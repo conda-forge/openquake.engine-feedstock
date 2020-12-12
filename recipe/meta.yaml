@@ -25,13 +25,13 @@ requirements:
     - pandas >=0.25
     - pip
     - psutil >=2.0
-    - pyshp >=1.2.3
+    - pyshp
     - python
     - pyzmq <20.0
     - requests >=2.20
     - scipy >=1.3
     - setuptools
-    - shapely >=1.3
+    - shapely
     - toml
   run:
     - decorator >=4.3
@@ -42,13 +42,13 @@ requirements:
     - numpy >=1.16
     - pandas >=0.25
     - psutil >=2.0
-    - pyshp >=1.2.3
+    - pyshp
     - python
     - pyzmq <20.0
     - requests >=2.20
     - scipy >=1.3
     - setuptools
-    - shapely >=1.3
+    - shapely
     - toml
 
 test:
