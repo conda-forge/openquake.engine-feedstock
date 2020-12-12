@@ -27,7 +27,7 @@ requirements:
     - pip
     - psutil >=2.0,
     - pyshp ==1.2.3
-    - python
+    - python >=3.6
     - pyzmq <20.0
     - requests >=2.20,
     - scipy >=1.3,
