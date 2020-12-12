@@ -20,9 +20,9 @@ requirements:
     - django >=1.11
     - docutils >=0.11
     - h5py >=2.9
-    - matplotlib >=1.5
-    - numpy >=1.16
-    - pandas >=0.25
+    - matplotlib
+    - numpy
+    - pandas
     - pip
     - psutil >=2.0
     - pyshp
@@ -38,9 +38,9 @@ requirements:
     - django >=1.11
     - docutils >=0.11
     - h5py >=2.9
-    - matplotlib >=1.5
-    - numpy >=1.16
-    - pandas >=0.25
+    - matplotlib
+    - numpy
+    - pandas
     - psutil >=2.0
     - pyshp
     - python
