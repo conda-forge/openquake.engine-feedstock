@@ -44,7 +44,7 @@ requirements:
     - pandas >=0.25,
     - psutil >=2.0,
     - pyshp ==1.2.3
-    - python >=3.6
+    - python
     - pyzmq <20.0
     - requests >=2.20,
     - scipy >=1.3,
