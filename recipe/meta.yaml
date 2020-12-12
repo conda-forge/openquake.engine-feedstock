@@ -13,7 +13,6 @@ build:
   number: 2
   entry_points:
     - oq = openquake.commands.__main__:oq
-  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
