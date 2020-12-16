@@ -3,7 +3,7 @@ About openquake.engine
 
 Home: https://github.com/gem/oq-engine
 
-Package license: GNU Affero GPL v3
+Package license: AGPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openquake.engine-feedstock/blob/master/LICENSE.txt)
 
