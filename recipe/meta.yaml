@@ -11,7 +11,7 @@ source:
   sha256: 669dd5ef1a451d3511436c43d40fa4cea98862917ebd8922d8deadafc41b738a
 
 build:
-  number: 3
+  number: 4
   noarch: python
   entry_points:
     - oq = openquake.commands.__main__:oq
