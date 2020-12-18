@@ -11,7 +11,7 @@ source:
   sha256: 669dd5ef1a451d3511436c43d40fa4cea98862917ebd8922d8deadafc41b738a
 
 build:
-  number: 2
+  number: 3
   noarch: python
   entry_points:
     - oq = openquake.commands.__main__:oq
@@ -43,7 +43,8 @@ requirements:
     - pyshp
     - pyzmq <20.0
     - requests >=2.20,<2.24
-    - scipy >=1.3,<1.5
+    # This pin is too tight and we cannot resolve for it.
+    - scipy >=1.3
     - setuptools
     - shapely >=1.3,<1.8
     - toml
