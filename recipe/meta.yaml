@@ -11,7 +11,7 @@ source:
   sha256: 669dd5ef1a451d3511436c43d40fa4cea98862917ebd8922d8deadafc41b738a
 
 build:
-  number: 2
+  number: 3
   noarch: python
   entry_points:
     - oq = openquake.commands.__main__:oq
@@ -35,7 +35,9 @@ requirements:
     - docutils >=0.11
     - h5py >=2.9,<2.11
     - matplotlib-base >=1.5,<3.2
-    - numpy >=1.16,<1.19
+    # This pin is too tight and we cannot resolve for it.
+    # - numpy >=1.16,<1.19
+    - numpy >=1.16
     - pandas >=0.25,<1.1
     - psutil >=2.0,<5.7
     # This pin is too tight and we cannot resolve for it.
