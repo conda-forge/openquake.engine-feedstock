@@ -33,6 +33,7 @@ requirements:
     # This pin is too tight and we cannot resolve for it.
     # - docutils >=0.11,<0.15
     - docutils >=0.11
+    - gdal
     - h5py >=2.9,<2.11
     - matplotlib-base >=1.5,<3.2
     # This pin is too tight and we cannot resolve for it.
@@ -40,6 +41,7 @@ requirements:
     - numpy >=1.16
     - pandas >=0.25,<1.1
     - psutil >=2.0,<5.7
+    - pyproj
     # This pin is too tight and we cannot resolve for it.
     # - pyshp ==1.2.3
     - pyshp
