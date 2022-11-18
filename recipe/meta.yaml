@@ -62,6 +62,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - ocefpaf
     - mhearne-usgs
     - cbworden
     - emthompson-usgs
