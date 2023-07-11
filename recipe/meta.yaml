@@ -13,7 +13,7 @@ source:
     - pandas.patch
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - oq = openquake.commands.__main__:oq
