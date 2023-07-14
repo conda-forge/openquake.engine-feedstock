@@ -1,5 +1,5 @@
 {% set name = "openquake.engine" %}
-{% set version = "3.16.4" %}
+{% set version = "3.17.1" %}
 
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openquake.engine-{{ version }}.tar.gz
-  sha256: 4f515b3f2efeda8c256895b6ed5e29f1dd0e0866ee7fe4ea26f4ee54d25cfd88
+  sha256: f59bbb25b789d68907ab9e44f58038f007ce2412e4203be90172b92b8d5cd0d5
   patches:
     - pandas.patch
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - oq = openquake.commands.__main__:oq
