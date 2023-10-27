@@ -43,6 +43,8 @@ requirements:
     - toml >=0.10.2
     - pyproj >=1.9
     - numba >=0.56
+    # not listed in the metadata but required
+    - fiona
 
 test:
   imports:
