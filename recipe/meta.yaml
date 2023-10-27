@@ -9,8 +9,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openquake.engine-{{ version }}.tar.gz
   sha256: 5b0dce8b617d1ce07d9c77ea18e6cc6569c43d3c89421928a3984587da5ed14b
-  patches:
-    - pandas.patch
 
 build:
   number: 0
