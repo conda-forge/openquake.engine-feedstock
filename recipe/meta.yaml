@@ -45,6 +45,7 @@ requirements:
     - numba >=0.56
     # not listed in the metadata but required
     - fiona
+    - networkx
 
 test:
   imports:
