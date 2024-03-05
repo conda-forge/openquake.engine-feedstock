@@ -1,5 +1,5 @@
 {% set name = "openquake.engine" %}
-{% set version = "3.18.0" %}
+{% set version = "3.19.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openquake.engine-{{ version }}.tar.gz
-  sha256: 5b0dce8b617d1ce07d9c77ea18e6cc6569c43d3c89421928a3984587da5ed14b
+  sha256: 8fd4eacefffc04cd91f41a8bed1fb71b882f0f447b419c27bfcbc91b8ab0a25d
 
 build:
   number: 0
@@ -19,13 +19,14 @@ build:
     # conda package handling is not happy with special characters in this
     # example on Windows.
     - rm -rf openquake/qa_tests_data/classical_risk/case_5
-    - {{ PYTHON }} -m pip install . -vv
+    - {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
     - python >=3.8
     - pip
   run:
+    - alpha-shapes >=1.1.0
     - python >=3.8
     - setuptools
     - h5py >=2.10
@@ -37,7 +38,7 @@ requirements:
     - shapely >=1.7
     - docutils >=0.11
     - decorator >=4.3
-    - django >=3.2
+    - django >=4.2,<5
     - matplotlib-base
     - requests >=2.20
     - toml >=0.10.2
