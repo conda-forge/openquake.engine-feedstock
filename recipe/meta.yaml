@@ -1,5 +1,5 @@
 {% set name = "openquake.engine" %}
-{% set version = "3.19.0" %}
+{% set version = "3.21.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openquake.engine-{{ version }}.tar.gz
-  sha256: 8fd4eacefffc04cd91f41a8bed1fb71b882f0f447b419c27bfcbc91b8ab0a25d
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openquake_engine-{{ version }}.tar.gz
+  sha256: bcf433f6a44c98b9c9118c6e0571ac8e8fc10230e36adcab1ecb55453090f2f8
 
 build:
   number: 0
@@ -43,7 +43,7 @@ requirements:
     - requests >=2.20
     - toml >=0.10.2
     - pyproj >=1.9
-    - numba >=0.56
+    - numba >=0.58
     # not listed in the metadata but required
     - fiona
     - networkx
