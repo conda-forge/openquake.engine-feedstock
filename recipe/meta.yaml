@@ -1,6 +1,6 @@
 {% set name = "openquake.engine" %}
 {% set version = "3.21.0" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.10" %}
 
 
 package:
@@ -34,7 +34,7 @@ requirements:
     - h5py >=2.10
     - numpy >=1.20,<2
     - scipy >=1.3
-    - pandas >=0.25
+    - pandas >=0.25,<2
     - pyzmq >=19.0
     - psutil >=2.0
     - shapely >=1.7
@@ -49,6 +49,7 @@ requirements:
     # not listed in the metadata but required
     - fiona
     - networkx
+    - gdal
 
 test:
   imports:
