@@ -47,10 +47,10 @@ requirements:
     - pyproj >=3.6.1
     - numba >=0.58
     # not listed in the metadata but required
-    - h3 >= 3.7.7
-    - fiona >= 1.9.5
+    - h3 >=3.7.7
+    - fiona >=1.9.5
     - networkx
-    - gdal >= 3.7.3
+    - gdal >=3.7.3
 
 test:
   imports:
