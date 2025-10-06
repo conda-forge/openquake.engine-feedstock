@@ -1,5 +1,5 @@
 {% set name = "openquake.engine" %}
-{% set version = "3.23.2" %}
+{% set version = "3.23.3" %}
 {% set python_min = "3.10" %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openquake_engine-{{ version }}.tar.gz
-  sha256: a674c33db5f30323fa66bd42e7cdcec49d2d3ce18d2de38237a61b4cae5ecbd4
+  sha256: 8618eecacdb434b3a643d123306b256fc9a3e0ea006b8d2afa1c4b748cedb2b4
 
 build:
   number: 0
@@ -32,7 +32,7 @@ requirements:
     - alpha-shapes >=1.1.0
     - setuptools
     - h5py >=2.10
-    - numpy >=1.20,<2
+    - numpy >=1.20
     - scipy >=1.3
     - pandas >=0.25
     - pyzmq >=19.0
