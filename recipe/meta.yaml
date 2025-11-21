@@ -28,7 +28,6 @@ requirements:
     - setuptools >=69.0
     - pip
   run:
-    - alpha_shapes >=1.1.0
     - python >={{ python_min }}
     - alpha-shapes >=1.1.0
     - setuptools
