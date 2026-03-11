@@ -45,6 +45,9 @@ requirements:
     - pyproj >=1.9
     - alpha-shapes >=1.1.0
     - h3-py >=3.7
+    # not listed in the metadata but required
+    - fiona >=1.9.5
+
 tests:
   - python:
       imports:
