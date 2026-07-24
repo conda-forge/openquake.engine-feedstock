@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "3.26.1"
+  version: "3.26.2"
 
 package:
   name: openquake.engine
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/openquake.engine/openquake_engine-${{ version }}.tar.gz
-  sha256: 1e45b7a7e1be02c722a4986b3a6ac488531a9139d662880055a4a03329f056f5
+  sha256: 82644c4279735d38e83d764114a56e5992127b541b032d4eda859bc3e8717a26
 
 build:
   number: 0
