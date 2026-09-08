@@ -39,7 +39,7 @@ requirements:
     - h5py >=3.13
     - matplotlib-base
     - numba >=0.61.2,<0.62.dev0
-    - numpy >=2,
+    - numpy >=2
     - pandas >=2,<2.2.3
     - pillow >=12
     - psutil
